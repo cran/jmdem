@@ -1,0 +1,15 @@
+819071234dd37354ac6e238adaaa54f4 *DESCRIPTION
+17b10d492e5116bbe72e83975579e717 *NAMESPACE
+efa27a2b1f9983ec300762b275b5bf8d *R/jmdem_1.0.R
+a1b75cc59b30a891cd574fb1df710b33 *man/anova.jmdem.Rd
+8e72d024fd2ada61bfc9ecac7dbd251a *man/jmdem.Rd
+4e889606b95796fdd045117b5c3f7025 *man/jmdem.control.Rd
+602d928e539ac86481d7b8e78387e7d5 *man/jmdem.sim.Rd
+172cea4fe1132a3a0b1cb081e03f3e1b *man/jmdem.summaries.Rd
+1ae1148de30845e45668e9823250f8ad *man/model.matrix.jmdem.Rd
+ee3a5b7e77a466e53fd7eeb0e75ea757 *man/predict.jmdem.Rd
+29064bc7c0d14e421689ae7cf081d565 *man/score.jmdem.Rd
+2e43334fe0ae8849ea148fd53fce82b5 *man/stat.anova.jmdem.Rd
+edcea5437aaa46b7bcb141a26970c9b2 *man/summary.jmdem.Rd
+eae98132e8b60fb1a9bdc75971cdb022 *man/summary.jmdem.sim.Rd
+fc6b0d84a52c35be6628b30e4c1cd1eb *man/update.jmdem.Rd

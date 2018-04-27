@@ -1,0 +1,55 @@
+export("jmdem")
+export("jmdem.fit")
+export("residuals.jmdem")
+export("family.jmdem")
+export("formula.jmdem")
+export("model.matrix.jmdem")
+export("update.jmdem")
+export("predict.jmdem")
+export("jmdem.control")
+export("summary.jmdem")
+export("print.summary.jmdem")
+export("anova.jmdem")
+export("stat.anova.jmdem")
+export("score.jmdem")
+export("wald.jmdem")
+export("jmdem.sim")
+export("summary.jmdem.sim")
+export("simdata.jmdem.sim")
+export("getdata.jmdem.sim")
+
+importFrom("stats", ".checkMFClasses", ".getXlevels", "Gamma",
+            "as.formula", "coef", "delete.response", "family", "fitted",
+            "formula", "gaussian", "glm.control", "glm.fit",
+            "model.frame", "model.matrix", "model.offset",
+            "model.response", "na.pass", "napredict", "naprint",
+            "naresid", "optim", "pchisq", "predict", "pt", "qt",
+            "quantile", "rgamma", "rnbinom", "rnorm", "setNames",
+            "symnum", "terms", "terms.formula", "update", "var")
+importFrom("utils", "install.packages")
+importFrom("VGAM", "rbetabinom")
+importFrom("statmod", "rinvgauss")
+
+S3method(model.frame, jmdem)
+S3method(model.matrix, jmdem)
+S3method(update, jmdem)
+S3method(residuals, jmdem)
+S3method(family, jmdem)
+S3method(formula, jmdem)
+S3method(update, jmdem)
+S3method(predict, jmdem)
+S3method(print, jmdem)
+S3method(summary, jmdem)
+S3method(print, summary.jmdem)
+S3method(anova, jmdem)
+S3method(anova, jmdemlist)
+S3method(summary, jmdem.sim)
+S3method(print, summary.jmdem.sim)
+
+
+
+
+
+
+
+
