@@ -58,7 +58,7 @@
     \item{average.asymp.test}{(Arithmetric means of the Rao's score and Wald test statistics estimated in all simulations saved in a \code{data.frame}.}
 }
 \author{
-    Ka Yui Karl Wu (\url{kykarlwu@gmail.com})
+    Karl Wu Ka Yui (karlwuky@suss.edu.sg)
 }
 \seealso{
     \code{\link{jmdem.sim}}, \code{\link{jmdem}}, \code{\link{summary}}

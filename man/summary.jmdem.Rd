@@ -67,7 +67,7 @@
     \item{symbolic.cor}{(only if correlation is true.) The value of the argument symbolic.cor.}
 }
 \author{
-    Ka Yui Karl Wu (\url{kykarlwu@gmail.com})
+    Karl Wu Ka Yui (karlwuky@suss.edu.sg)
 }
 \seealso{
     \code{\link{jmdem}}, \code{\link{summary}}

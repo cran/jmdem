@@ -217,7 +217,7 @@ jmdem.fit(x, y, z = NULL, weights, mfamily = gaussian, dfamily = Gamma,
 }
 
 \author{
-    Ka Yui Karl Wu (\url{kykarlwu@gmail.com})
+    Karl Wu Ka Yui (karlwuky@suss.edu.sg)
 }
 \seealso{
 \code{\link{anova.jmdem}}, \code{\link{summary.jmdem}}, etc. for \code{jmdem} methods, and the generic functions \code{\link{effects}}, \code{\link{fitted.values}}, and \code{\link{residuals}}.

@@ -49,7 +49,7 @@
 
 }
 \author{
-    Ka Yui Karl Wu (\url{kykarlwu@gmail.com})
+    Karl Wu Ka Yui (karlwuky@suss.edu.sg)
 }
 \section{Warning}{
     The comparison between two or more models will only be valid if they are fitted to the same dataset. This may be a problem if there are missing values and \code{R}'s default of  \code{na.action = na.omit} is used, and  \code{anova} will detect this with an error.

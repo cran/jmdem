@@ -131,7 +131,7 @@ Users can also extract the datasets used in \code{jmdem.sim} by \code{getdata.jm
 An object of class \code{jmdem.sim} contains of a list of \code{jmdem} fits with full model information. That means, each element of the \code{jmdem.sim} object contains the same attributes as a \code{jmdem} object. See \emph{values} of \code{jmdem} for details.
 }
 \author{
-    Ka Yui Karl Wu (\url{kykarlwu@gmail.com})
+    Karl Wu Ka Yui (karlwuky@suss.edu.sg)
 }
 \seealso{
     \code{\link{jmdem}}, \code{\link{summary.jmdem.sim}}

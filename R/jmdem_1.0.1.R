@@ -433,7 +433,7 @@ jmdem.prefit <- function(y, x, z, weights, start = NULL, etastart = NULL, mustar
     }
     return(list(beta = beta, eta = eta, mu = mu, lambda = lambda, delta = delta, phi = phi))
 }
-    
+   
 #*********************************************************************#
 #******************** jmdem.fit (JMDEM estimation) *******************#
 #*********************************************************************#
@@ -2328,7 +2328,8 @@ jmdem.sim <- function(mformula = "y ~ 1 + x", dformula = "~ 1 + z", data = NULL,
         simres <- try(do.call("jmdem", arg.sim), silent = TRUE)
         
         ### Complete this simulation only if simulation was successful
-        if (!class(simres) == "try-error") 
+        if (!inherits(simres, "try-error")) 
+        # if (!class(simres) == "try-error") 
         {
             names(simres$coefficients) <- c(paste("beta", names(simres$coefficients)[1:xnum], sep = "."), paste("lambda", names(simres$coefficients)[-(1:xnum)], sep = "."))
             names(simres$coefficients)[grep("(Intercept)", names(simres$coefficients))] <- c(if (mintercept) {"beta.x0"}, if (dintercept) {"lambda.z0"})
@@ -2916,13 +2917,15 @@ minv <- function(m, minv.method = NULL, tol = sqrt(.Machine$double.eps))
         ### Normal inverse
         ans <- try(solve(m), silent = TRUE)
         ansnam <- "inverse"
-        if (!class(ans) == "try-error") {not.ok <- any(diag(ans) < 0) | any(eigen(ans)$values < 0)} else {not.ok <- TRUE}
+        if (!inherits(ans, "try-error")) {not.ok <- any(diag(ans) < 0) | any(eigen(ans)$values < 0)} else {not.ok <- TRUE}
+        # if (!class(ans) == "try-error") {not.ok <- any(diag(ans) < 0) | any(eigen(ans)$values < 0)} else {not.ok <- TRUE}
         if (not.ok) 
         {
             ### Choleski inverse
             ans <- try(chol2inv(m), silent = TRUE)
             ansnam <- "inverse from Choleski decomposition"
-            if (!class(ans) == "try-error") {not.ok <- any(diag(ans) < 0) | any(eigen(ans)$values < 0)} else {not.ok <- TRUE}
+            if (!inherits(ans, "try-error")) {not.ok <- any(diag(ans) < 0) | any(eigen(ans)$values < 0)} else {not.ok <- TRUE}
+            # if (!class(ans) == "try-error") {not.ok <- any(diag(ans) < 0) | any(eigen(ans)$values < 0)} else {not.ok <- TRUE}
             if (not.ok) 
             {
                 ### Generalised inverse

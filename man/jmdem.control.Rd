@@ -68,7 +68,7 @@ jmdem.control(maxit = 100, epsilon = 1e-8, prefit.trace = FALSE,
     Wu, K.Y.K., Li, W.K. (2016). \emph{On a dispersion model with Pearson residual responses}. Comput. Statist. Data Anal., \strong{103}, 17-27.
 }
 \author{
-    Ka Yui Karl Wu (\url{kykarlwu@gmail.com})
+    Karl Wu Ka Yui (karlwuky@suss.edu.sg)
 }
 \seealso{
     \code{\link{jmdem.fit}}, the fitting procedure used by \code{\link{jmdem}}.

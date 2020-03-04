@@ -55,7 +55,7 @@ Hastie, T. J. and Pregibon, D. (1992). \emph{Generalized linear models}. Chapter
 McCullagh P. and Nelder, J. A. (1989). \emph{Generalized Linear Models}. London: Chapman and Hall.
 }
 \author{
-    Ka Yui Karl Wu (\url{kykarlwu@gmail.com})
+    Karl Wu Ka Yui (karlwuky@suss.edu.sg)
 }
 \examples{
 ## The jmdem(...) example

@@ -41,7 +41,7 @@ The key assumption is that the coefficient estimates asymptotically follow a (mu
     Wu, K.Y.K., Li, W.K. (2016). \emph{On a dispersion model with Pearson residual responses}. Comput. Statist. Data Anal., \strong{103}, 17-27.
 }
 \author{
-    Ka Yui Karl Wu (\url{kykarlwu@gmail.com})
+    Karl Wu Ka Yui (karlwuky@suss.edu.sg)
 }
 \note{
 The score test is sometimes also called the Rao's score test or Lagrange multiplier (LM) test in different literatures.

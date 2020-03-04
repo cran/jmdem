@@ -21,7 +21,7 @@ stat.anova.jmdem(table, test = c("Rao", "Wald"))
     Hastie, T. J. and Pregibon, D. (1992). \emph{Generalized linear models}. Chapter 6 of \emph{Statistical Models in S} eds J. M. Chambers and T. J. Hastie, Wadsworth & Brooks/Cole.
 }
 \author{
-    Ka Yui Karl Wu (\url{kykarlwu@gmail.com})
+    Karl Wu Ka Yui (karlwuky@suss.edu.sg)
 }
 \seealso{
     \code{\link{anova.jmdem}}

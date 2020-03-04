@@ -34,7 +34,7 @@
     \item{se.fit}{Estimated standard errors.}
 }
 \author{
-    Ka Yui Karl Wu (\url{kykarlwu@gmail.com})
+    Karl Wu Ka Yui (karlwuky@suss.edu.sg)
 }
 \note{
     Variables are first looked for in \code{newdata} and then searched for in the usual way (which will include the environment of the formula used in the fit). A warning will be given if the variables found are not of the same length as those in \code{newdata} if it was supplied.
